@@ -1,3 +1,5 @@
+package com.github.Pawedla;
+
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
