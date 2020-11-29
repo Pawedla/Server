@@ -4,5 +4,5 @@ import java.rmi.Remote;
 import java.rmi.RemoteException;
 
 public interface Server extends Remote {
-    String bookOrder(String selection) throws RemoteException;
+    String bookOrder(Integer orderNumber, String[] order, String[] offer) throws RemoteException;
 }
